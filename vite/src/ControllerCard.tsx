@@ -8,7 +8,7 @@ export default function ControllerCard() {
     const [temperature, setTemperature] = useState("loading");
     const [humidity, setHumidity] = useState("loading");
     const [feelsLike, setFeelsLike] = useState("loading");
-    const [targetTemperature, setTargetTemperature] = useState(25);
+    const [targetTemperature, setTargetTemperature] = useState(30);
     const [acOn, setAcOn] = useState("loading");
 
     return (
