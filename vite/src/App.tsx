@@ -1,9 +1,11 @@
-import './App.css'
+import ControllerCard from './ControllerCard'
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <div className='flex justify-center items-center h-screen'>
+        <ControllerCard />
+      </div>
     </>
   )
 }
